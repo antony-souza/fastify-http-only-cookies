@@ -1,0 +1,27 @@
+{
+	"name": "fastify-http-only-cookies",
+	"version": "1.0.0",
+	"description": "A Fastify application demonstrating HTTP-only cookies for authentication",
+	"scripts": {
+		"start": "tsx src/bootstrap.ts",
+		"dev": "tsx watch src/bootstrap.ts",
+		"build": "tsc"
+	},
+	"dependencies": {
+		"@esbuild/win32-x64": "^0.25.8",
+		"@fastify/cookie": "^11.0.2",
+		"@fastify/cors": "^11.1.0",
+		"bcrypt": "^6.0.0",
+		"dotenv": "^17.2.1",
+		"fastify": "^5.4.0",
+		"jsonwebtoken": "^9.0.2",
+		"mongoose": "^8.17.0",
+		"tsx": "^4.20.3",
+		"zod": "^4.0.14"
+	},
+	"devDependencies": {
+		"@types/jsonwebtoken": "^9.0.10",
+		"@types/node": "^24.1.0",
+		"typescript": "^5.9.2"
+	}
+}
